@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Name - Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .resume {
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 800px;
+            border-radius: 5px;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            color: #666;
+            font-size: 18px;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p>Email: your.email@example.com</p>
-  <p>LinkedIn: [Your LinkedIn Profile URL]</p>
-  <h2>Summary</h2>
-  <p>Write a brief summary of your skills and experience here.</p>
-  <h2>Experience</h2>
-  <p><strong>Job Title</strong> - Company Name - Date</p>
-  <p>Description of your work experience.</p>
-  <!-- Add more job experiences as needed -->
-  <h2>Education</h2>
-  <p><strong>Degree</strong> - University Name - Date</p>
-  <p>Description of your education.</p>
-  <!-- Add more education entries as needed -->
+    <div class="resume">
+        <div class="header">
+            <h1>Your Name</h1>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: [Your LinkedIn Profile URL]</p>
+        </div>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <p>Write a brief summary of your skills and experience here.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <p><strong>Job Title</strong> - Company Name - Date</p>
+            <p>Description of your work experience.</p>
+            <!-- Add more job experiences as needed -->
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Degree</strong> - University Name - Date</p>
+            <p>Description of your education.</p>
+            <!-- Add more education entries as needed -->
+        </div>
+    </div>
 </body>
 </html>
